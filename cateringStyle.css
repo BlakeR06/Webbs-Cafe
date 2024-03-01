@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+}
+.background{
+    background-image: url('cateringPageImg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+.homeIcon{
+    background-image: url('homeIconImg.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    position: fixed;
+    z-index: 100;
+    margin: 20px 0 0 20px;
+    cursor: pointer;
+    transition: width 0.2s ease, height 0.2s ease;
+}
+.homeIcon:hover{
+    width: 135px;
+    height: 135px;
+}
+.great-vibes-regular{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    color: white;
+    font-size: 120px;
+    margin-top: 10px;
+}
+
+.cateringContentContainer{
+    background-color: rgb(0, 0, 0, 0.3);
+    border: 2px solid rgb(99, 48, 0);
+    border-radius: 50px;
+    width: 100%;
+    height: auto;
+    margin: 0 50px;
+    padding-bottom: 50px;
+}
+.sectionTitle{
+    color: rgb(255, 244, 208);
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.foodImg{
+    background-image: url('foodPhoto.PNG');
+}
+.drinkImg{
+    background-image: url('drinkPhoto.PNG');
+}
+.itemContainer{
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.item{
+    width: fit-content;
+    margin: 10px;
+}
+.itemImg{
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+}
+.itemName{
+    color: white;
+    margin-top: 2px;
+    font-size: 18px;
+}
+.itemPrice{
+    color: rgb(255, 244, 208);
+    font-weight: bold;
+}
+.itemAmount{
+    width: 50px;
+}
+.button1{
+    background-color: rgb(224,180,148);
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 50px;
+    width: fit-content;
+    width: 220px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid rgb(224,180,148, 0);
+    transition: background-color 0.2s ease, border 0.2s ease;
+    margin-top: 40px;
+}
+.button1:hover{
+    background-color: white;
+    border: 2px solid rgb(224,180,148, 1);
+}
+
+.receiptContainer{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: none;
+}
+.title2{
+    color: white;
+    font-size: 100px;
+    margin-top: 10px;
+}
+.receiptContent{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgb(99, 48, 0);
+    border-radius: 50px;
+    width: 100%;
+    height: auto;
+    margin: 0 50px;
+    padding: 50px;
+}
+
+.receiptItem{
+    width: fit-content;
+    display: flex;
+    margin: 20px 0;
+    display: none;
+}
+.receiptItemAmountAndPrice{
+    margin-left: 10px;
+}
+.receiptItemAmount{
+    margin-top: 30%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.receiptItemPrice{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+#receiptSectionTitle1{
+    display: none;
+}
+#receiptSectionTitle2{
+    display: none;
+}
+.title3{
+    font-size: 50px;
+    color: white;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.3);
+}

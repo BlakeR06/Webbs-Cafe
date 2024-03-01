@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webb's Cafe: Catering</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,200&family=Bebas+Neue&family=Exo+2:wght@200&family=Great+Vibes&family=Oswald:wght@200;300;600&family=PT+Sans&family=Pacifico&family=Titan+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="cateringStyle.css">
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <a href="home.html"><div class="homeIcon"></div></a>
+
+    <div class="center">
+        <div class="title great-vibes-regular">Catering</div>
+    </div>
+
+    <div>
+        <div class="center">
+            <div class="cateringContentContainer">
+    
+                <div class="sectionTitle great-vibes-regular">Food</div>
+                <div class="itemContainer">
+    
+                    <div class="item">
+                        <div class="itemImg foodImg"></div>
+                        <div class="center">
+                            <div class="itemName">Sample Food</div>
+                        </div>
+                        <div class="center">
+                            <div class="itemPrice">$1.23</div>
+                        </div>
+                        <div class="center">
+                            <input type="number" min="0" value="0" class="itemAmount" id="sf1">
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <div class="itemImg foodImg"></div>
+                        <div class="center">
+                            <div class="itemName">Sample Food</div>
+                        </div>
+                        <div class="center">
+                            <div class="itemPrice">$1.23</div>
+                        </div>
+                        <div class="center">
+                            <input type="number" min="0" value="0" class="itemAmount" id="sf2">
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <div class="itemImg foodImg"></div>
+                        <div class="center">
+                            <div class="itemName">Sample Food</div>
+                        </div>
+                        <div class="center">
+                            <div class="itemPrice">$1.23</div>
+                        </div>
+                        <div class="center">
+                            <input type="number" min="0" value="0" class="itemAmount" id="sf3">
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <div class="itemImg foodImg"></div>
+                        <div class="center">
+                            <div class="itemName">Sample Food</div>
+                        </div>
+                        <div class="center">
+                            <div class="itemPrice">$1.23</div>
+                        </div>
+                        <div class="center">
+                            <input type="number" min="0" value="0" class="itemAmount" id="sf4">
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="sectionTitle great-vibes-regular">Drinks</div>
+                <div class="itemContainer">
+    
+                    <div class="item">
+                        <div class="itemImg drinkImg"></div>
+                        <div class="center">
+                            <div class="itemName">Sample Drink</div>
+                        </div>
+                        <div class="center">
+                            <div class="itemPrice">$1.23</div>
+                        </div>
+                        <div class="center">
+                            <input type="number" min="0" value="0" class="itemAmount" id="sd1">
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <div class="itemImg drinkImg"></div>
+                        <div class="center">
+                            <div class="itemName">Sample Drink</div>
+                        </div>
+                        <div class="center">
+                            <div class="itemPrice">$1.23</div>
+                        </div>
+                        <div class="center">
+                            <input type="number" min="0" value="0" class="itemAmount" id="sd2">
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <div class="itemImg drinkImg"></div>
+                        <div class="center">
+                            <div class="itemName">Sample Drink</div>
+                        </div>
+                        <div class="center">
+                            <div class="itemPrice">$1.23</div>
+                        </div>
+                        <div class="center">
+                            <input type="number" min="0" value="0" class="itemAmount" id="sd3">
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <div class="itemImg drinkImg"></div>
+                        <div class="center">
+                            <div class="itemName">Sample Drink</div>
+                        </div>
+                        <div class="center">
+                            <div class="itemPrice">$1.23</div>
+                        </div>
+                        <div class="center">
+                            <input type="number" min="0" value="0" class="itemAmount" id="sd4">
+                        </div>
+                    </div>
+    
+                <div class="center">
+                    <div class="button1" id="viewReceiptButton">View Receipt</div>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+    <div class="receiptContainer" id="receiptContainer">
+        <div class="center">
+            <div class="title2 great-vibes-regular">Receipt</div>
+        </div>
+        <div class="center">
+            <div class="receiptContent">
+
+                <div class="sectionTitle great-vibes-regular" id="receiptSectionTitle1">Food</div>
+
+                <div class="receiptItem" id="fri1">
+                    <div class="receiptItemImageAndName">
+                        <div class="itemImg foodImg"></div>
+                        <div class="itemName">Sample Food</div>
+                    </div>
+                    <div class="receiptItemAmountAndPrice">
+                        <div class="receiptItemAmount" id="ria1"></div>
+                        <div class="receiptItemPrice" id="rip1"></div>
+                    </div>
+                </div>
+                <div class="receiptItem" id="fri2">
+                    <div class="receiptItemImageAndName">
+                        <div class="itemImg foodImg"></div>
+                        <div class="itemName">Sample Food</div>
+                    </div>
+                    <div class="receiptItemAmountAndPrice">
+                        <div class="receiptItemAmount" id="ria2"></div>
+                        <div class="receiptItemPrice" id="rip2"></div>
+                    </div>
+                </div>
+                <div class="receiptItem" id="fri3">
+                    <div class="receiptItemImageAndName">
+                        <div class="itemImg foodImg"></div>
+                        <div class="itemName">Sample Food</div>
+                    </div>
+                    <div class="receiptItemAmountAndPrice">
+                        <div class="receiptItemAmount" id="ria3"></div>
+                        <div class="receiptItemPrice" id="rip3"></div>
+                    </div>
+                </div>
+                <div class="receiptItem" id="fri4">
+                    <div class="receiptItemImageAndName">
+                        <div class="itemImg foodImg"></div>
+                        <div class="itemName">Sample Food</div>
+                    </div>
+                    <div class="receiptItemAmountAndPrice">
+                        <div class="receiptItemAmount" id="ria4"></div>
+                        <div class="receiptItemPrice" id="rip4"></div>
+                    </div>
+                </div>
+
+                <div class="sectionTitle great-vibes-regular" id="receiptSectionTitle2">Drinks</div>
+
+                <div class="receiptItem" id="dri1">
+                    <div class="receiptItemImageAndName">
+                        <div class="itemImg drinkImg"></div>
+                        <div class="itemName">Sample Drink</div>
+                    </div>
+                    <div class="receiptItemAmountAndPrice">
+                        <div class="receiptItemAmount" id="ria5"></div>
+                        <div class="receiptItemPrice" id="rip5"></div>
+                    </div>
+                </div>
+                <div class="receiptItem" id="dri2">
+                    <div class="receiptItemImageAndName">
+                        <div class="itemImg drinkImg"></div>
+                        <div class="itemName">Sample Drink</div>
+                    </div>
+                    <div class="receiptItemAmountAndPrice">
+                        <div class="receiptItemAmount" id="ria6"></div>
+                        <div class="receiptItemPrice" id="rip6"></div>
+                    </div>
+                </div>
+                <div class="receiptItem" id="dri3">
+                    <div class="receiptItemImageAndName">
+                        <div class="itemImg drinkImg"></div>
+                        <div class="itemName">Sample Drink</div>
+                    </div>
+                    <div class="receiptItemAmountAndPrice">
+                        <div class="receiptItemAmount" id="ria7"></div>
+                        <div class="receiptItemPrice" id="rip7"></div>
+                    </div>
+                </div>
+                <div class="receiptItem" id="dri4">
+                    <div class="receiptItemImageAndName">
+                        <div class="itemImg drinkImg"></div>
+                        <div class="itemName">Sample Drink</div>
+                    </div>
+                    <div class="receiptItemAmountAndPrice">
+                        <div class="receiptItemAmount" id="ria8"></div>
+                        <div class="receiptItemPrice" id="rip8"></div>
+                    </div>
+                </div>
+
+                <div class="center">
+                    <div class="title3" id="total"></div>
+                </div>
+
+                <div class="center">
+                    <div class="button1" id="placeOrder">Place Order</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="cateringJS.js"></script>
+</html>
